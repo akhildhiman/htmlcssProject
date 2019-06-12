@@ -1,0 +1,12 @@
+// Flex-class
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media all and (max-width:768px){
+    .flex{
+        max-width: 100%;
+    }
+}

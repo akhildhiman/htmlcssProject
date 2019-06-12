@@ -1,0 +1,126 @@
+.contact-heading {
+    color:rgb(22, 22, 22);
+    font-weight: 600;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+.form {
+border: 0.05rem solid rgb(214, 211, 211);
+}
+.map {
+    border: 0.05rem solid rgb(214, 211, 211);
+    padding-top: 2.5rem;
+}
+@media all and (max-width:768px){
+    .grid-box{
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (max-width:768px){
+    .grid-box2{
+        grid-template-columns: 1fr;
+    }
+}
+.username {
+width: 80%;
+padding-bottom: 1rem;
+margin: 1rem 0 1rem 3rem;
+background-color: rgb(248, 240, 240);
+font-size: 1rem;
+font-weight: 400;
+border-style: none;
+}
+.email {
+width: 80%;
+padding-bottom: 1rem;
+background-color: rgb(248, 240, 240);
+margin: 1rem 0 1rem 3rem;
+font-size: 1rem;
+font-weight: 400;
+border-style: none;
+
+}
+.phone-no {
+    width: 80%;
+padding-bottom: 1rem;
+background-color: rgb(248, 240, 240);
+margin: 1rem 0 1rem 3rem;
+font-size: 1rem;
+font-weight: 400;
+border-style: none;
+
+}
+.password {
+    width: 80%;
+padding-bottom: 1rem;
+background-color: rgb(248, 240, 240);
+margin: 1rem 0 1rem 3rem;
+font-size: 1rem;
+font-weight: 400;
+border-style: none;
+
+}
+.message {
+    width: 80%;
+padding-bottom: 1rem;
+background-color: rgb(248, 240, 240);
+margin: 1rem 0 1rem 3rem;
+font-size: 1rem;
+font-weight: 400;
+border-style: none;
+
+}
+.submit {
+    width: 100%;
+    background-color: $redPrimary;
+    padding: 1rem;
+    color:$white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+// ========================
+// section2
+// ========================
+.grid-box2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+.comm {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 0.9rem;
+}
+.tech {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 0.9rem;
+
+}
+.other {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-left: 0.9rem;
+
+}
+.chat, .ball, .paper {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+}
+.para1, .para2, .para3 {
+    padding: 1.5rem 0;
+    color: rgb(153, 151, 151);
+}
+.apple, .cell-no {
+    color: $redPrimary;
+}

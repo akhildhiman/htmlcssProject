@@ -1,0 +1,133 @@
+
+
+.btn-type-2{
+    background: #ec1c24;
+    border: none;
+    color: #fff;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    width: 22%;
+}
+.input-class{
+    padding: .8rem 2rem;
+    font-family: 'Hind', sans-serif;
+    font-size: 1rem;
+    background: rgba(0, 123, 255, 0.06);
+    color: #888;
+    border: none;
+}
+.icon-form{
+    font-size: 3rem;
+}
+.link-form{
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-top: 2rem;
+    color: $titleText;
+}
+.forgot-password{
+    display: flex;
+    justify-content: center;
+}
+.linked{
+}
+// HEADER-1
+.header-section {
+    background:$backgroundPrimary;
+} 
+.bold_span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $white;
+}
+.regular_span {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+h5 {
+    color: #5b7a9a;
+    letter-spacing:0.2rem;
+    font-weight: 600;
+    text-shadow: 2;
+}
+hr {
+    width: 90%;
+}
+.i-class {
+    color: #4d6171;
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+    margin-left: 2rem;
+    color: $white;
+}
+.fas{
+    padding-left: 0.3rem;
+}
+.links{
+    color:$titleText;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+}
+a{
+    text-decoration: none;
+    color: #5b7a9a;
+}
+.dropdown-arrow {
+    color: $white;
+    font-size: 0.7rem;
+}
+.links:hover {
+    color: $redPrimary;
+}
+.fixed-link {
+    color: $redPrimary;
+    font-weight: 600;
+}
+.list {
+    display: inline-block;
+    margin-left: 2rem;
+}
+.header-icons{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.icon-text{
+    color: #4d6171;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.white-text{
+    color: $white;
+}
+// FORM
+.search {
+    outline: none;
+    padding: 1rem 5rem;
+    font-size: 0.8rem;
+    border: none;
+    letter-spacing: 2px;
+}
+.btn-form {
+    color: #fff;
+    border: none;
+    padding: 7px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ec1c24;
+    width: 35px;
+    height: 45px;
+    border-radius: 5px;
+}
+.btn-form:hover{
+    cursor: pointer;
+}
+.form{
+    padding-right: 3rem;
+}

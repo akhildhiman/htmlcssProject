@@ -1,0 +1,34 @@
+.main-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+    padding: 2rem 0;
+    margin-top: 7rem;
+}
+.services {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: $paraText;
+    padding: 1rem 0;
+}
+.input {
+    width: 40%;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    box-shadow: 2px 2px 7px 2px wheat;   
+}
+.btn {
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: rgb(104, 209, 209);
+    color: $white;
+    padding: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+.notification {
+    font-size: 1rem;
+    font-weight: 300;
+    color: $paraText;
+    padding: 2rem 0;
+    padding-left: 17.5rem;
+}
